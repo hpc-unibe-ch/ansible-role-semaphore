@@ -124,5 +124,5 @@
         --password {{ semaphore_admin_pass }}
         --email {{ semaphore_admin_email }}
         --admin
-      changed_when: true  # This always changes, this CLI basically resets the password
+      changed_when: false  # This always changes, this CLI basically resets the password
       no_log: "{{ not semaphore_debug }}"

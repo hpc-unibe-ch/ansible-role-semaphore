@@ -16,6 +16,7 @@ semaphore_db_host: 'localhost'
 semaphore_db_name: 'semaphore'
 semaphore_db_user: 'semaphore'
 semaphore_db_pass: 'secure_password'
+semaphore_db_options: ''
 
 # Local admin user
 # Keep local admin user up to date (create the user and update the password)

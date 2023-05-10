@@ -7,14 +7,14 @@
     "user": "{{ semaphore_db_user }}",
     "pass": "{{ semaphore_db_pass }}",
     "name": "{{ semaphore_db_name }}",
-    "options": {}
+    "options": { {{ semaphore_db_options }} }
   },
   "postgres": {
     "host": "{{ semaphore_db_host }}",
     "user": "{{ semaphore_db_user }}",
     "pass": "{{ semaphore_db_pass }}",
     "name": "{{ semaphore_db_name }}",
-    "options": {}
+    "options": { {{ semaphore_db_options }} }
   },
   "dialect": "{{ semaphore_db_flavor }}",
   "port": "{{ semaphore_port }}",
